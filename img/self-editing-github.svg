@@ -44,7 +44,7 @@
 					return;
 				}
 				
-				var msg = prompt('Commit Message', 'Update ' + tokens[tokens.length - 1]);
+				var msg = prompt('Commit Message', '1. Update ' + tokens[tokens.length - 1]);
 				
 				if (msg == null)
 				{
